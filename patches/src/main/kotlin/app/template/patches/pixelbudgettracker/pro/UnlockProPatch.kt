@@ -53,7 +53,7 @@ val unlockProPatch = bytecodePatch(
             0,
             """
             const/4 v0, 0x1
-            iput-boolean v0, p0, ${PurchaseRepositoryConstructorFingerprint.classDef.type}->d:Z
+            iput-boolean v0, p0, ${PurchaseRepositoryConstructorFingerprint.originalClassDef.type}->d:Z
             """.trimIndent(),
         )
 
@@ -74,8 +74,8 @@ val unlockProPatch = bytecodePatch(
         //   return-void
         //
         // We replicate this exactly with p1 hardcoded to 0x1 (true).
-        val repoType = ProStateSetterFingerprint.classDef.type
-        val flowType = ProStateSetterFingerprint.classDef.fields.first { it.name == "e" }.type
+        val repoType = ProStateSetterFingerprint.originalClassDef.type
+        val flowType = ProStateSetterFingerprint.originalClassDef.fields.first { it.name == "e" }.type
         ProStateSetterFingerprint.method.apply {
             clearBody()
             addInstructions(
