@@ -101,5 +101,6 @@ val unlockProPatch = bytecodePatch(
             )
         }
     }
+}
 
 
