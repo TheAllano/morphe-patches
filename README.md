@@ -17,9 +17,12 @@ Collection de patches personnalisés pour [Morphe](https://morphe.software).
 ## 📱 Applications supportées
 
 <!-- PATCHES_START -->
-| Application | Package | Version cible | Patch | Description |
+> **[v1.0.0](https://github.com/TheAllano/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**8 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+
+| # | App | Patches | Version | Package |
 |---|---|---|---|---|
-| **Pixel Budget Tracker** | `com.pixel.al.pixelbudgettracker` | `1.1.0` (build `100028`) | **Unlock PRO** | Débloque toutes les fonctionnalités PRO de manière permanente en interceptant l'état d'achat au démarrage et dans les flux réactifs. |
+| 1 | [**Pixel Budget Tracker**](PATCHES.md#pixel-budget-tracker-compixelalpixelbudgettracker) | 1 | `1.1.0` | [`com.pixel.al.pixelbudgettracker`](https://play.google.com/store/apps/details?id=com.pixel.al.pixelbudgettracker) |
+| 2 | [**Universal**](PATCHES.md#universal) | 7 | — | — |
 <!-- PATCHES_END -->
 
 ---
