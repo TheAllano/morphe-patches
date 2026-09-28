@@ -16,9 +16,11 @@ Collection de patches personnalisés pour [Morphe](https://morphe.software).
 
 ## 📱 Applications supportées
 
+<!-- PATCHES_START -->
 | Application | Package | Version cible | Patch | Description |
 |---|---|---|---|---|
 | **Pixel Budget Tracker** | `com.pixel.al.pixelbudgettracker` | `1.1.0` (build `100028`) | **Unlock PRO** | Débloque toutes les fonctionnalités PRO de manière permanente en interceptant l'état d'achat au démarrage et dans les flux réactifs. |
+<!-- PATCHES_END -->
 
 ---
 
