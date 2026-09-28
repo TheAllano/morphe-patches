@@ -1,13 +1,13 @@
-group = "app.rushiranpise.morphe-patches"
+group = "app.theallano.morphe-patches"
 
 patches {
     about {
-        name = "Doom's Morphe Patches"
-        description = "New mask, same task. All patches answer to Doom."
-        source = "https://github.com/rushiranpise/morphe-patches"
-        author = "rushiranpise"
-        contact = "https://github.com/rushiranpise"
-        website = "https://morphe.software/add-source?github=rushiranpise/morphe-patches"
+        name = "Allano's Morphe Patches"
+        description = "Personal Morphe patches by Allano."
+        source = "https://github.com/TheAllano/morphe-patches"
+        author = "TheAllano"
+        contact = "https://github.com/TheAllano"
+        website = "https://morphe.software/add-source?github=TheAllano/morphe-patches"
         license = "GPLv3"
     }
 }
